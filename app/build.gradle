@@ -24,28 +24,25 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
     // Facebook Account-Kit
     compile 'com.facebook.android:facebook-android-sdk:4.23.0'
     compile 'com.facebook.android:account-kit-sdk:4.23.0'
 
     // Firebase and Google Auth
     compile 'com.google.firebase:firebase-auth:10.2.6'
-    compile 'com.google.android.gms:play-services-auth:11.0.1'
+    compile 'com.google.android.gms:play-services:11.0.0'
 
     // RoundedImageView Maven Central
     compile 'com.makeramen:roundedimageview:2.3.0'
 
     // Picasso SquareUp
     compile 'com.squareup.picasso:picasso:2.5.2'
-
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-
     testCompile 'junit:junit:4.12'
 }
