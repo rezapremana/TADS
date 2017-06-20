@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TADS</string>
+    <string name="facebook_app_id">453180798369278</string>
+
+
+    <string name="phone_button_login">LOGIN</string>
+    <string name="register_phone_number">Enter your phone number to login</string>
+    <string name="input_phone_number">Phone number</string>
+    <string name="click_continue">Continue</string>
+    <string name="options">---------------------- OR ----------------------</string>
 </resources>
